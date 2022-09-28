@@ -1,97 +1,61 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meu Perfil</title>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Site Isabella Brandao</title>
 
-    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./assets/css/styles.css" >
 
-</head>
-<body>
-
-    <nav>
-
-        <p>Bem-vindo</p>
-
-        <ul>
-            <li>
-                <a href="index.html" target="_blank"target="_blank">Home</a>
-            </li>
-            <li>
-                <a href="contato.html" target="_blank">Contato</a>
-            </li>
-        </ul>
-
-    </nav>
     
-    <hr>
-
+  </head>
+  <body>
+    <nav>
+      <p>Site da Isa</p>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="./contato.html" class="disabled">Contato</a></li>
+      </ul>
+    </nav>
     <main>
-
-        <section>
-            <h1>Sobre</h1>
-            <hr>
-            <div class="perfil">
-
-                <article>
-                    <p class="primeiro">
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa quod illo ad blanditiis doloribus nemo qui amet, quisquam, id, rem possimus esse expedita architecto ratione nihil et distinctio praesentium aspernatur.
-                    </p>
-
-                    <p class="segundo">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat perspiciatis, est exercitationem aut unde at, praesentium dolores tempora totam necessitatibus sunt accusamus odio aspernatur quis, suscipit ut vel? Rem, culpa?
-                    </p>
-                </article>
-
-                <img src="./assets/perfil-gen.jpeg" alt="Foto Isabella Brandão" class="foto">
-
-            </div>
-        </section>
+      <section>
+        <h1 onclick="aparecerNome()">Bem-vindo</h1>
         
+        <hr />
+        <div class="perfil">
+          <article class="separacao">
+            <div>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex illo temporibus ullam sed ipsum laboriosam eos impedit distinctio, nulla itaque molestiae aliquid quibusdam qui, non unde soluta, fuga nesciunt! Quibusdam.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit iusto cum eveniet, voluptatibus illum est in iure qui id, omnis, vero porro deserunt eligendi facilis nesciunt deleniti odit exercitationem delectus.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis incidunt, quos blanditiis similique maxime aperiam iusto. Neque nisi consectetur eveniet labore, ipsam repudiandae, ab ad numquam quam iusto corrupti provident.
+              </p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus deserunt magni nemo, ab quam nostrum in odit amet vitae suscipit dicta quae pariatur. Nihil magni atque labore doloremque reprehenderit magnam?
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi vel ipsum commodi minus accusamus modi officiis aliquam sit iste illo? Adipisci laborum ex quo, inventore fuga voluptates odit expedita ab.
+              </p>
+            </div>
+            <div>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui ullam, libero quae tenetur tempora doloremque perferendis fugiat quia officia eaque repellat cum, aspernatur doloribus? Alias enim quia laboriosam distinctio deserunt.lorem
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni rerum error mollitia deleniti similique consequuntur esse praesentium maxime at officia, laborum eum, cupiditate repellat aliquam? Modi amet pariatur eum numquam?
+              </p>
+            </div>
+          </article>
+          <img src="./assets/images/perfil-gen.jpeg" alt="foto de perfil" class="foto" />
+        </div>
+      </section>
+      <hr />
+      <section>
+        <h2>Meu zumbi favorito</h2>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/5wfpTcpDvuE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </section>
     </main>
 
-    <hr>
-
-    <section >
-
-       <div class="generation">
-
-        <h2>Sobre a Generation</h2>
-
-         <iframe width="400" height="300" src="https://www.youtube.com/embed/5wfpTcpDvuE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-       </div>
-
-    </section>
-    <hr>
     <footer>
-        <section >   
-            <div >
-                <a href="https://github.com/bellabrandoni" target="_blank">
-                    <img class="tm-social" src="./assets/github.png" alt="img-github" >
-                </a >
-                
-                <a href="https://www.instagram.com/bellabrandoni/?hl=pt-br" target="_blank">
-                    <img class="tm-social" src="./assets/instagram.png" alt="img-instagram" >
-                </a>
-                <a href="https://www.linkedin.com/in/isabella-brandao" target="_blank">
-                    <img class="tm-social" src="./assets/linkedin.png" alt="img-linkedin">
-                </a>
-                
-            </div>
-            <hr>
-            <div>
-                <p >Criado por Isabella Brandão - 2022</p> 
-            </div>
-        
-        </section>
-    
+        <p>Feito por Isabella Brandão - 2022 &copy;</p>   
     </footer>
-    
-
-</body>
-
-
+    <script src="./assets/scripts/script.js"></script>
+  </body>
 </html>
